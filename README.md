@@ -8,3 +8,5 @@
 - **跨平台支持** - 基于 Flutter 构建，支持 Android、Android TV、iOS、Windows、macOS、Linux、Web 七大平台
 - **完整的 Emby 客户端** - 支持服务器连接、媒体库浏览、播放、搜索、收藏等完整功能
 - **首页大屏轮播** - 支持大屏轮播推荐，为观影提供更好的视觉体验
+
+-  [TG交流群](https://t.me/cmby_client)

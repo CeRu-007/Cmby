@@ -1,0 +1,56 @@
+name: ✨ 功能建议
+description: 新功能、改进想法或优化建议
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的建议！请尽量描述清楚你期望的功能和使用场景。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解决了什么问题
+      description: 这个功能解决了什么痛点？在使用中遇到了什么不便？
+      placeholder: 每次手动切换音轨很麻烦……
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 期望的方案
+      description: 你希望怎么实现？描述理想中的交互或界面
+      placeholder: 在播放器设置里增加一个"默认音轨语言"选项
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案
+      description: 你考虑过哪些其他的解决方式？（可选）
+      placeholder: 或者通过长按音轨按钮设为默认
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 涉及平台
+      description: 这个功能主要针对哪个平台？（可多选）
+      multiple: true
+      options:
+        - Android (手机)
+        - Android (TV)
+        - iOS
+        - Windows
+        - macOS
+        - Linux
+        - Web
+        - 所有平台
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考实现
+      description: 其他应用中有类似的实现吗？贴链接或截图（可选）

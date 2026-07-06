@@ -1,0 +1,86 @@
+name: 🐛 Bug 报告
+description: 提交 Bug 帮助我们改进
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提交 Bug！请尽量填写以下信息，越详细越容易定位问题。
+
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本
+      description: 设置 → 关于 → 应用版本
+      placeholder: v0.0.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      description: 你在哪个平台上遇到了问题？
+      options:
+        - Android (手机)
+        - Android (TV)
+        - iOS
+        - Windows
+        - macOS
+        - Linux
+        - Web
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: 系统版本
+      description: 例如 Android 14、Windows 11 23H2、macOS 14.3
+      placeholder: Android 14
+    validations:
+      required: true
+
+  - type: input
+    id: emby-version
+    attributes:
+      label: Emby 服务器版本
+      description: 你的 Emby Server 版本号
+      placeholder: 4.9.x.x
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？期望的行为是什么？
+      placeholder: 打开媒体库后卡片海报不显示……
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 按步骤说明如何复现
+      placeholder: |
+        1. 打开 XXX 页面
+        2. 点击 XXX 按钮
+        3. 滚动到 XXX 位置
+        4. 看到错误
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志
+      description: 设置 → 关于 → 日志，粘贴相关日志内容（可选）
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图 / 录屏
+      description: 如果有截图或录屏，请贴到这里（可选）

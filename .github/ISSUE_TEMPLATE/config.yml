@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论 & 帮助
+    url: https://github.com/CeRu-007/Cmby/discussions
+    about: 使用疑问、功能讨论、交流请移步 Discussions
+  - name: 📖 项目文档
+    url: https://github.com/CeRu-007/Cmby#readme
+    about: 查阅 README 了解项目概况

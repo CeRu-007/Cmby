@@ -19,7 +19,7 @@
 
 - [AltStore](https://altstore.io)
 - [SideStore](https://sidestore.io)
-- [TrollStore](https://trollstore.app)
+- [巨魔 (TrollStore)](https://trollstore.app)
 - Sideloadly 等工具
 
 如果您有 Apple Developer 账号，可自行使用开发证书签名后安装。

@@ -2,6 +2,8 @@
 
 基于 Flutter 的跨平台 Emby 媒体客户端。
 
+📖 [使用文档 / Wiki](https://github.com/CeRu-007/Cmby/wiki) — 常见问题与使用指南
+
 ## 功能特性
 
 - **跨平台支持** — Android、Android TV、iOS、Windows、macOS、Linux

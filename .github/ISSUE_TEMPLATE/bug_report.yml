@@ -28,7 +28,6 @@ body:
         - Windows
         - macOS
         - Linux
-        - Web
     validations:
       required: true
 
